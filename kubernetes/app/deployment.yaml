@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: app
-        image: sample-app:latest
-        imagePullPolicy: Never
+        image: maheshwari/pythonapplication:latest
+        imagePullPolicy: Always
         ports:
         - containerPort: 9191
